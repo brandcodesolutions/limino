@@ -325,13 +325,19 @@ textarea {
 }
 
 .btn-outline {
-  background-color: #3c3c3c;
-  color:#3c3c3c;
+  background-color: #000000;
+  color:#66ff03;
+}
+
+.btn-outline:hover {
+  background-color: transparent;
+  color: #66ff03;
+  border: 0.5px solid #66ff03;
 }
 
 .btn:hover {
-  color: #000000;
-  border: 0.5px solid #000000;
+  color: #66ff03;
+  border: 0.5px solid #66ff03;
 }
 
 .learn-more {
